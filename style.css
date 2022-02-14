@@ -1,0 +1,94 @@
+
+body {
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@200&display=swap');
+    font-family: 'Roboto Serif', sans-serif;
+    background-color: #accffe;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Adding flex to main class */
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+/* Add padding to form */
+/* Adding position to Moving the images */
+.form{
+    position: relative;
+    width: 450px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 2px;
+    }
+.img-1{
+    position: absolute;
+    top: 372px;
+    left: -194px;
+    z-index: 99;  
+ }
+.img-2{
+  position: absolute;
+  bottom: 0;
+  right: -170px;
+  z-index: 99;  
+}
+/* Adding font-style */
+.form h1{
+    font-style: italic;
+    font-weight: 200;
+}
+
+/* Full-width input fields */
+/* Full-width input fields */
+input[type=text], input[type=password] , input[type=date]  {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #83bffb;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: #83bffb;
+  color: white;
+  text-transform: uppercase;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.registerbtn:hover {
+    background-color: #83bffb;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set the text center of the "sign in" section */
+.signin {
+  text-align: center;
+}
